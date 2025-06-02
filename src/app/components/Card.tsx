@@ -19,7 +19,7 @@ export const Card = (props:cardPropTypes) => {
          <div>
           {props.tags.map((item)=>{
             return (
-              <div className='tags'>
+              <div key={0} className='tags'>
                 {item}
               </div>
             )

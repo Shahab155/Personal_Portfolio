@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section className="heroSection wrapper">
     <div className="leftSection">
-     <p>Hi, I am <span className="purple">Shahab</span>
+     <p>Hi, I am <span className="gradient-text">Shahab</span>
       </p> 
       <div>I am a passionate, <TypingEffect/></div>
       <div>
@@ -23,7 +23,7 @@ const Hero = () => {
     </div>
     
     <div className="rightSection">
-      <Image src="/bg.png" alt="Personal Image" width={250} height={350} />
+      <Image src="/images/profile/profile.png"  alt="Personal Image" width={300} height={300} />
     </div>
   </section>
 

@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { FaHtml5, FaCss3, FaJs, FaReact  } from "react-icons/fa";
 import { SiTypescript, SiNextdotjs, SiTailwindcss } from "react-icons/si";
 import Heading from "./Heading";
@@ -21,7 +20,7 @@ const mySkill = [
         <div className='container'>
         {mySkill.map((item,index)=>{
           return (
-            <div key={index} className="skill" data-aos="zoom-in-up" > 
+            <div key={index} className="skill" data-aos="zoom-out" > 
              <span style={item.style}>{item.icon}</span>
              
             </div>

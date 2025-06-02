@@ -7,66 +7,66 @@ import Heading from "./Heading";
 const cardData = [
   {
     id: 1,
-    title:"Responsive Hero Section",
-    image: "/project1.png",
+    title:"E-Commerce Website",
+    image: "/images/projects/project1.png",
     description:
-      "This is responsive hero section, created using HTML and Tailwindcss.",
-    link: "https://responsive-navbar-pink-nine.vercel.app/",
-    tags: ["HTML", "CSS", "Typescript","JavaScript"]
+      "E-commerce website, created using React.js and Tailwindcss.",
+    link: "https://ecommerce-website-snowy-nu.vercel.app/",
+    tags: ["React.Js","Tailwindcss","Vite"]
   },
   {
     id: 2,
-    title:"Responsive Hero Section",
+    title:"Dynamic Resume Builder",
 
-    image: "/project2.png",
+    image: "/images/projects/project2.png",
     description:
-      "This is responsive hero section, created using HTML and Tailwindcss.",
-    link: "https://responsive-navbar-pink-nine.vercel.app/",
-    tags: ["HTML", "CSS", "Typescript","Next Js"]
+      "Dynamic Resume builder, created using HTML, CSS and Typescript",
+    link: "https://resume-project-inky.vercel.app/",
+    tags: ["HTML", "CSS", "Typescript"]
 
   },
   {
     id: 3,
-    title:"Responsive Hero Section",
+    title:"E-Commerce Website",
 
-    image: "/project3.png",
+    image: "/images/projects/project3.png",
     description:
-      "This is responsive hero section, created using HTML and Tailwindcss.",
+      "This is E-commerce website created using Tailwindcss and Next.Js.",
     link: "https://hackthon-e-commerce-three.vercel.app/",
-    tags: ["HTML", "CSS", "Typescript","Tailwindcss"]
+    tags: ["Next.Js", "Typescript","Tailwindcss"]
 
   },
   {
     id: 4,
-    title:"Responsive Hero Section",
+    title:"Tic Tac Toe",
 
-    image: "/project4.png",
+    image: "/images/projects/project4.png",
     description:
-      "This is responsive hero section, created using HTML and Tailwindcss.",
-    link: "https://responsive-navbar-pink-nine.vercel.app/",
-    tags: ["HTML", "CSS", "Typescript","Wordpress"]
+      "A simple fun game, created using HTML, CSS, Typescript",
+    link: "https://tic-tac-toe-game-teal-five.vercel.app/",
+    tags: ["HTML", "CSS", "Javascript"]
 
   },
   {
     id: 5,
-    title:"Responsive Hero Section",
+    title:"Figma Portfolio",
 
-    image: "/project4.png",
+    image: "/images/projects/project5.png",
     description:
-      "This is responsive hero section, created using HTML and Tailwindcss.",
-    link: "https://responsive-navbar-pink-nine.vercel.app/",
-    tags: ["HTML", "CSS", "Typescript","Wordpress"]
+      "This is portfolio, created using Tailwindcss and NextJs.",
+    link: "https://next-js-tailwindcss-assignment-wepf.vercel.app/",
+    tags: ["Tailwindcss","Next.Js"]
 
   },
   {
     id: 6,
-    title:"Responsive Hero Section",
+    title:"PanaCloud Website",
 
-    image: "/project4.png",
+    image: "/images/projects/project6.png",
     description:
-      "This is responsive hero section, created using HTML and Tailwindcss.",
-    link: "https://responsive-navbar-pink-nine.vercel.app/",
-    tags: ["HTML", "CSS", "Typescript","Wordpress"]
+      "PanaCloud website, created using Next.Js and custom Css.",
+    link: "https://next-js-css-assignment-c6ry.vercel.app/",
+    tags: ["CSS","Next.Js"]
 
   },
 
@@ -80,7 +80,7 @@ const Projects = () => {
         {
             cardData.map((item, index)=>{
                 return (
-                  <Link key={index} href={item.link} data-aos="zoom-in-up">
+                  <Link key={index} href={item.link} data-aos="zoom-out" target="_blank">
                     <Card description={item.description} image={item.image} tags={item.tags} title={item.title} />
                   </Link>
                 )
