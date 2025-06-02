@@ -158,7 +158,7 @@ nav .logo:hover {
 }
 
 .aboutSection div {
-  height: 200px;
+  height: 230px;
   width: 95%;
   margin: 25px auto;
   padding: 20px;
@@ -204,12 +204,12 @@ nav .logo:hover {
 }
 
 .projectsSection .card img {
-  height: 280px;
+  height: 250px;
   width: 100%;
 }
 
 .card .description {
-  height: 170px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   gap: 18px;
@@ -230,9 +230,9 @@ nav .logo:hover {
   display: inline-block;
   margin-right: 10px;
   font-size: 12px;
-  background-color: rgb(20, 20, 20);
-  padding: 3px 8px;
-
+  background-color: rgb(40, 40, 40);
+  padding: 4px 10px;
+  margin: 2px;
   border-radius: 2px;
 }
 

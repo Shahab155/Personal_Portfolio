@@ -42,9 +42,9 @@ const cardData = [
 
     image: "/images/projects/project4.png",
     description:
-      "A simple fun game, created using HTML, CSS, Typescript",
+      "A simple fun game, created using HTML, CSS, Typescript. nkjwdbckj j b whg m,bkjb cmn hjv",
     link: "https://tic-tac-toe-game-teal-five.vercel.app/",
-    tags: ["HTML", "CSS", "Javascript"]
+    tags: ["HTML", "CSS", "Javascript","HTML", "CSS", "Javascript"]
 
   },
   {
@@ -53,9 +53,9 @@ const cardData = [
 
     image: "/images/projects/project5.png",
     description:
-      "This is portfolio, created using Tailwindcss and NextJs.",
+      "This is portfolio, created using Tailwindcss and NextJs. bchbhj mn jebn nevbhjc ",
     link: "https://next-js-tailwindcss-assignment-wepf.vercel.app/",
-    tags: ["Tailwindcss","Next.Js"]
+    tags: ["Tailwindcss","Next.Js","HTML", "CSS", "Javascript"]
 
   },
   {
@@ -64,9 +64,9 @@ const cardData = [
 
     image: "/images/projects/project6.png",
     description:
-      "PanaCloud website, created using Next.Js and custom Css.z",
+      "PanaCloud website, created using Next.Js and custom Css.gdyfugbcnjn8yuab nevwyu hdz jgdhcb  ndhgc",
     link: "https://next-js-css-assignment-c6ry.vercel.app/",
-    tags: ["CSS","Next.Js"]
+    tags: ["CSS","Next.Js","HTML", "CSS", "Javascript"]
 
   },
 
