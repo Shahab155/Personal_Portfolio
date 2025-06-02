@@ -3,7 +3,6 @@ import {Heebo} from "next/font/google"
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import "bootstrap-icons/font/bootstrap-icons.css"
 import "./responsive.css"
 
 const heebo = Heebo({subsets:["latin"], weight:["400","700"]})
