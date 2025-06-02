@@ -64,7 +64,7 @@ const cardData = [
 
     image: "/images/projects/project6.png",
     description:
-      "PanaCloud website, created using Next.Js and custom Css.",
+      "PanaCloud website, created using Next.Js and custom Css.z",
     link: "https://next-js-css-assignment-c6ry.vercel.app/",
     tags: ["CSS","Next.Js"]
 
