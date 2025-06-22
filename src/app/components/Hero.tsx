@@ -8,12 +8,16 @@ const Hero = () => {
   return (
     <section className="heroSection wrapper">
     <div className="leftSection">
-     <p>Hi, I am <span className="gradient-text">Shahab</span>
-      </p> 
-      <div>I am a passionate, <TypingEffect/></div>
+     <h1>I am a passionate
+      </h1> 
+      <div className="typing-effect"> <TypingEffect/></div>
+      <p> I am a proficient Frontend Developer who is also adept at HTML, CSS and JavaScript programming languages.
+       I use React.js, Next.js and Tailwind CSS to create modern, responsive and user-friendly interfaces.
+      Clean code, component-based architecture, and improved performance are the key factors I focus on.
+      I am learning and maintaining the latest frontend trends, practices.
+</p>
       <div>
-        <span id="element"></span>
-
+  
       </div>
       <div className="btnContainer">
       <button className="btn" onClick={()=>{router.push('https://resume-project-inky.vercel.app/')}}>Download Resume</button>
@@ -23,7 +27,7 @@ const Hero = () => {
     </div>
     
     <div className="rightSection">
-      <Image src="/images/profile/profile.png"  alt="Personal Image" width={300} height={300} />
+      <Image src="/images/profile/profile.png"  alt="Personal Image" width={350} height={350} />
     </div>
   </section>
 

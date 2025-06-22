@@ -15,7 +15,7 @@ const navHandler = () => {
     <header>
       <div className="navContainer">
       <nav>
-      <div className="logo">PORTFOLIO</div>
+      <div className="logo">SHAHAB</div>
       <div className="right">
       <ul >
           <li><a href="#"> Home </a></li>

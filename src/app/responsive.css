@@ -5,12 +5,13 @@
   .wrapper {
     /* max-width: 1020px;
          */
-    width: 97%;
+    width: 95%;
     margin: 10rem auto;
   }
 
   .heroSection {
     width: 95%;
+    gap: 50px;
     height: 80vh;
     justify-content: center;
   }
@@ -21,19 +22,27 @@
 
   .projectsSection .container {
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 0 8px;
+    /* padding: 0 8px; */
   }
+   /* project Section */
   .projectsSection .card {
-    width: 90%;
+    width: 85%;
   }
 
   .projectsSection .card img {
     width: 100%;
   }
-
+/* About Section  */
   .aboutSection div {
     height: auto;
     width: 95%;
+  }
+
+  /* Skill Section  */
+
+  .skill {
+    width: 280px;
+
   }
 }
 
@@ -47,12 +56,23 @@
 
   .heroSection {
     justify-content: center;
-    /* width: 90%; */
-    /* margin: auto; */
+    
   }
 
   .heroSection > div {
     width: 55%;
+  }
+
+  .projectsSection .card {
+   width: 220px;
+  }
+
+   .skillSection .container  {
+    grid-template-columns: repeat(3,1fr);
+  }
+  .skill {
+   width: 235px;
+   height: auto;
   }
 }
 
@@ -67,6 +87,15 @@
   .heroSection > div {
     width: 60%;
   }
+
+  
+  .skillSection .container  {
+    grid-template-columns: repeat(3,1fr);
+  }
+  .skill {
+   width: 200px;
+   height: auto;
+  }
 }
 
 /* When maximum width is 768px  */
@@ -75,6 +104,9 @@
   .wrapper {
     margin: 10rem auto;
   }
+
+  /* Navbar styling  */
+
   nav ul {
     display: none;
   }
@@ -98,42 +130,66 @@
     font-weight: bold;
   }
 
+  /* HeroSection  */
+
   .heroSection {
     flex-direction: row;
     align-items: center;
-    gap: 40px;
+    gap:20px;
     height: auto;
     padding: 23px 0;
+    height: 100vh;
   }
 
+  .leftSection .btn {
+  margin: 5px 5px;
+
+  }
   .heroSection > div {
     width: 60%;
   }
 
+  /* About section  */
+
   .aboutSection div {
-    width: 90%;
+    width: 95%;
   }
 
   .aboutSection div p {
     line-height: 40px;
+    text-align: center;
   }
+
+  /* Project Section  */
 
   .projectsSection .container {
     grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    width: 90%;
     margin: 0 auto;
   }
 
   .projectsSection .card {
-    width: 90%;
+    /* width: 90%; */
     margin-top: 50px;
+    justify-content: space-between;
+  }
+
+  /* Skills Section  */
+
+  .skillSection .container  {
+    grid-template-columns: repeat(2,1fr);
+    gap:15px
+   
+  }
+  .skill {
+    width: 90%;
   }
 }
 
+/* When screen is in range between 320 to 640px */
+
 @media screen and (min-width: 320px) and (max-width: 640px) {
   .heroSection {
-    gap: 80px;
+    gap: 120px;
     flex-direction: column;
     align-items: center;
     height: auto;
@@ -148,19 +204,39 @@
     width: 95%;
   }
 
+  /* Project Section  */
+
   .projectsSection .container {
     grid-template-columns: 1fr;
+    width: 90%;
+ 
   }
 
   .projectsSection .card {
+
     height: auto;
+  
   }
   .projectsSection .card .description  {
     height: auto;
   }
 
+  /* Skill section  */
+
   .skillSection .container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    gap:20px
+  }
+
+  .skill {
+    align-items: center;
+    text-align: center;
+    width: 85%;
+    gap: 10px
+  }
+
+  .skill button {
+    padding: 10px 40px ;
   }
 
   .aboutSection div {

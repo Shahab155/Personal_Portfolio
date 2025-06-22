@@ -2,8 +2,6 @@ import Link from "next/link";
 import { Card } from "./Card";
 import Heading from "./Heading";
 
-
-
 const cardData = [
   {
     id: 1,
@@ -12,7 +10,7 @@ const cardData = [
     description:
       "E-commerce website, created using React.js and Tailwindcss.",
     link: "https://ecommerce-website-snowy-nu.vercel.app/",
-    tags: ["React.Js","Tailwindcss","Vite"]
+    tags: ["React.Js","Tailwindcss","Vite","Typescript"]
   },
   {
     id: 2,
@@ -55,7 +53,7 @@ const cardData = [
     description:
       "This is portfolio, created using Tailwindcss and NextJs.",
     link: "https://next-js-tailwindcss-assignment-wepf.vercel.app/",
-    tags: ["Tailwindcss","Next.Js"]
+    tags: ["Tailwindcss","Next.Js","Typescript"]
 
   },
   {
@@ -66,7 +64,7 @@ const cardData = [
     description:
       "PanaCloud website, created using Next.Js and custom Css.",
     link: "https://next-js-css-assignment-c6ry.vercel.app/",
-    tags: ["CSS","Next.Js"]
+    tags: ["CSS","Next.Js","Typescript"]
 
   },
 
@@ -75,21 +73,28 @@ const cardData = [
 const Projects = () => {
   return (
     <section className="projectsSection wrapper" id="projects">
-       <Heading title="My Projects"/>
-        <div className="container">
-        {
-            cardData.map((item, index)=>{
-                return (
-                  <Link key={index} href={item.link} data-aos="zoom-out" target="_blank">
-                    <Card description={item.description} image={item.image} tags={item.tags} title={item.title} />
-                  </Link>
-                )
-            })
-        }
-
-        </div>
+      <Heading title="My Projects" />
+      <div className="container">
+        {cardData.map((item, index) => {
+          return (
+            <Link
+              key={index}
+              href={item.link}
+              data-aos="zoom-out"
+              target="_blank"
+            >
+              <Card
+                description={item.description}
+                image={item.image}
+                title={item.title}
+                tags={item.tags}
+              />
+            </Link>
+          );
+        })}
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

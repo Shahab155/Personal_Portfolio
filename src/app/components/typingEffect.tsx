@@ -8,7 +8,7 @@ export default function TypingEffect() {
 const typedRef = useRef(null);
 useEffect(()=>{
     const typed = new Typed(typedRef.current,{
-        strings: ["Web Developer", "React Enthusiast", "Next.js Expert", "JavaScript Lover"],
+        strings: ["Frontend Developer", "React Enthusiast", "Next.js Expert", "JavaScript Lover","Python Developer"],
         typeSpeed: 50,
         backSpeed: 30,
         backDelay: 2000,
@@ -20,7 +20,7 @@ useEffect(()=>{
 },[])
 
   return (
-    <h2 className="typing purple">
+    <h2 className="typing-effect">
       <span ref={typedRef} />.
     </h2>
   )

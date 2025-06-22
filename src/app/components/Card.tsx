@@ -16,7 +16,7 @@ export const Card = (props:cardPropTypes) => {
       <div className='description'>
          <h2>{props.title}</h2>
          <p>{props.description}</p>
-         <div>
+          <div>
           {props.tags.map((item)=>{
             return (
               <div key={0} className='tags'>
