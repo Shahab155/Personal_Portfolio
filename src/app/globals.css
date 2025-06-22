@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,150..1000;1,6..12,150..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
   margin: 0;
@@ -18,10 +18,11 @@
   background-clip: text;
   color: transparent;
 }
+/* #F5F5F5 or #FAFAFA */
 body {
   overflow-x: hidden;
-  background-color: #19181B;
-  color: white;
+background:#000;
+color:white;
   font-family: "Hibbo", sans-serif
 }
 
@@ -32,7 +33,7 @@ body {
 }
 
 nav {
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(15, 15, 15);
   width: 100%;
   height: 70px;
   display: flex;
@@ -158,22 +159,14 @@ nav .logo:hover {
   height: 450px;
   display: flex;
   justify-content: center;
-  align-items: center;
-  transition: transform 0.5s ease-in-out;
   padding: 0 10px;
-
  
-}
-
-.rightSection:hover {
-  transform: scale(1.1);
+  
 }
 
 .rightSection img {
- border-radius: 20px;
-  height: 100%;
-  width: 100%; 
-  
+ border-radius: 50%;
+ border: 10px solid rgb(196, 11, 144);
 }
 
 /* About section */
@@ -182,24 +175,23 @@ nav .logo:hover {
 }
 
 .aboutSection div {
-  height: 230px;
-  /* width: 95%; */
+  /* height: 230px; */
+  width: 90%;
   margin: 25px auto;
-  padding: 20px;
-  border: 1px solid gray;
+  padding: 15px;
+  border: 1px solid white;
   display: flex;
   flex-direction: column;
   gap: 10px;
   border-radius: 10px;
+ 
   
 }
 
 .aboutSection div p {
-  font-size: 1.2rem;
-  color: white;
-  /* color: rgb(177, 177, 177) */
-  /* letter-spacing: 1.5px; */
-  /* font-weight: 200; */
+  font-size: 1rem;
+  color: rgb(121, 120, 120);
+  line-height: 28px;
 }
 
 /* projectsSection */
@@ -212,26 +204,27 @@ nav .logo:hover {
   margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap:20px
+  gap:15px;
+  color: #f3f3f3;
   
 }
 
 .projectsSection .card {
-  width: 340px;
-  height: 500px;
+  width: 315px;
+  /* height: 450px; */
   display: flex;
   flex-direction: column;
   gap: 5px;
-  border: 1px solid gray;
   border-radius: 5px;
   padding: 15px ;
-  transition: all 0.5s ease-in;
-  background-color: rgb(20, 20, 20);
-  
+ border: 1px solid white
+;
 }
 
 .projectsSection .card:hover {
-  box-shadow: 0px 0px 20px white;
+box-shadow: 0px 0px 20px rgb(168, 1, 118);
+
+
 }
 
 .projectsSection .card img {
@@ -240,7 +233,7 @@ nav .logo:hover {
 }
 
 .card .description {
-  height: 200px;
+  height: auto;
   display: flex;
   flex-direction: column;
   gap: 18px;
@@ -269,13 +262,22 @@ nav .logo:hover {
   border-radius: 2px;
 }
 
-.card button {
-  height: 40px;
-  text-align: center;
-  border-radius: 6px;
-  border:none;
-  background-color: #000;
-  color: white;
+.card button , .skill button{
+padding: 8px 0;
+min-height: 40px;
+border-radius: 8px;
+border: none;
+background-color: rgba(10, 10, 10, 1);
+color: white;
+font-weight: 700;
+cursor: pointer;
+transition: all ease 1s;
+ 
+  
+}
+
+.card button:hover {
+  background-color:#19181B;
 }
 /* # Skill section  */
 .skillSection {
@@ -287,21 +289,26 @@ nav .logo:hover {
   margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 15px;
   place-items: center;
 }
 
 .skill {
-  height:120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 340px;
-  padding: 20px 10px;
-  border: 1px solid gray;
+  width: 315px;
+  padding: 15px 10px;
+  border: 1px solid white;
   border-radius: 10px;
-  gap: 20px;
+  gap: 15px;
+  transition: all 0.5s ease;
+  border-radius: 10px;
   
+}
+
+.skill:hover {
+box-shadow: 0px 0px 20px rgb(168, 1, 118);
 }
 
 .skill div {
@@ -317,9 +324,10 @@ nav .logo:hover {
 
 .skill button {
   padding: 8px 0;
+  height: 35px;
   border-radius: 8px;
   border: none;
-background-color:#2c2b2b;
+background-color: rgba(10, 10, 10, 1);
 color: white;
 font-weight: 700;
 cursor: pointer;
@@ -327,8 +335,7 @@ transition: all ease 1s;
 }
 
 .skill button:hover {
- background-color: white;
- color: black;
+background-color:#19181B;
 }
 
 /* Contact Section  */
@@ -338,51 +345,66 @@ transition: all ease 1s;
 }
 
 .form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 15px;
   margin-top: 40px;
+ 
 }
 
 input {
-  width: 70%;
+  width: 90%;
   border-radius: 15px;
   padding: 15px;
-  border: 2px solid white;
+  border: 1px solid white
+;
   background: transparent;
+   margin-bottom: 30px ;
+}
+
+textarea:hover ,input:hover {
+box-shadow: 0px 0px 20px rgb(168, 1, 118);
+cursor:default;
+
 }
 
 textarea {
   background: transparent;
-  border: 2px solid white;
+  border: 1px solid white
+;
   padding: 10px;
   border-radius: 15px;
-  width: 70%;
+  width: 90%;
+  border-image: 20px;
+
+
 }
 
+
 .contactSection .btn {
+  /* margin: 0 auto; */
   background: transparent;
-  border: 2px solid white;
+  border: 1px solid white;
   padding: 10px;
   border-radius: 15px;
-  width: 70%;
+  width: 97%;
   font-weight: bold;
   transition: 0.2s ease-in-out;
   color: white;
   cursor: pointer;
-  transition: background-color 0.5s ease-in-out;
+  transition: all 3s ease-in-out;
 }
 
 .contactSection .btn:hover {
-  background-color: white;
-  color: black;
-  /* box-shadow: 5px 5px 5px  white; */
+box-shadow: 0px 0px 20px rgb(168, 1, 118);
+;
+;
+
 }
 
 /* footer section  */
 footer {
-  background-color: rgb(20, 20, 20);
+  background-color: rgb(15, 15, 15);
 }
 
 .footerContainer {
@@ -413,7 +435,7 @@ footer {
 
 .socialIcons {
   display: flex;
-  gap: 20px;
+  gap: 15px;
   font-size: 1.3rem;
 }
 

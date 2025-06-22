@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Card } from "./Card";
 import Heading from "./Heading";
 
@@ -68,6 +67,39 @@ const cardData = [
 
   },
 
+  {
+    id: 7,
+    title:"Weather App",
+
+    image: "/images/projects/project7.png",
+    description:
+      "This is weather widget create using Next.js",
+    link: "https://weather-widget-six-neon.vercel.app/",
+    tags: ["Next.Js","Tailwindcss","Typescript"]
+
+  },
+  {
+    id: 8,
+    title:"AI Translator",
+    image: "/images/projects/project8.png",
+    description:
+      "This is AI tranlator. It can translate more than 10 languges. ",
+    link: "https://translator-agent-by-shahab.streamlit.app/",
+    tags: ["Python","Streamlit","OpenAI Agent SDK"]
+
+  },
+  {
+    id: 9,
+    title:"Password Strength Checker",
+
+    image: "/images/projects/project9.png",
+    description:
+      "It can check password strength and give you feedback.",
+    link: "https://shahab155-password-strength-checker-main-ftwjlw.streamlit.app/",
+    tags: ["Python","Streamlit","OpenAI Agent SDK"]
+
+  },
+
 ];
 
 const Projects = () => {
@@ -77,19 +109,18 @@ const Projects = () => {
       <div className="container">
         {cardData.map((item, index) => {
           return (
-            <Link
-              key={index}
-              href={item.link}
-              data-aos="zoom-out"
-              target="_blank"
-            >
+            <div  key={index}
+              data-aos="zoom-out">
+
+            
               <Card
                 description={item.description}
                 image={item.image}
                 title={item.title}
                 tags={item.tags}
+                link={item.link}
               />
-            </Link>
+                </div>
           );
         })}
       </div>

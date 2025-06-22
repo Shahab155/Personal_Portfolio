@@ -1,8 +1,12 @@
+"use client"
 import Image from 'next/image'
 import { cardPropTypes } from '../types/customTypes'
-
+import { useRouter } from 'next/navigation'
 
 export const Card = (props:cardPropTypes) => {
+
+  const router = useRouter()
+
   return (
     <div className='card'>
       <div>
@@ -25,6 +29,9 @@ export const Card = (props:cardPropTypes) => {
             )
           })}
          </div>
+        
+        <button onClick={()=>{router.push(props.link)}}>Live Demo</button>
+    
       </div>
     </div>
   )

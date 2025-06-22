@@ -8,10 +8,10 @@ const Hero = () => {
   return (
     <section className="heroSection wrapper">
     <div className="leftSection">
-     <h1>I am a passionate
+     <h1 data-aos="fade-right">I am a passionate
       </h1> 
-      <div className="typing-effect"> <TypingEffect/></div>
-      <p> I am a proficient Frontend Developer who is also adept at HTML, CSS and JavaScript programming languages.
+      <div  className="typing-effect"> <TypingEffect/></div>
+      <p data-aos="fade-right"> I am a proficient Frontend Developer who is also adept at HTML, CSS and JavaScript programming languages.
        I use React.js, Next.js and Tailwind CSS to create modern, responsive and user-friendly interfaces.
       Clean code, component-based architecture, and improved performance are the key factors I focus on.
       I am learning and maintaining the latest frontend trends, practices.
@@ -20,14 +20,14 @@ const Hero = () => {
   
       </div>
       <div className="btnContainer">
-      <button className="btn" onClick={()=>{router.push('https://resume-project-inky.vercel.app/')}}>Download Resume</button>
-      <button className="btn" onClick={()=>{router.push('https://github.com/Shahab155')}}>Visit Github</button>
+      <button data-aos="fade-right" className="btn" onClick={()=>{router.push('https://resume-project-inky.vercel.app/')}}>Download Resume</button>
+      <button data-aos="fade-right" className="btn" onClick={()=>{router.push('https://github.com/Shahab155')}}>Visit Github</button>
       </div>
      
     </div>
     
-    <div className="rightSection">
-      <Image src="/images/profile/profile.png"  alt="Personal Image" width={350} height={350} />
+    <div className="rightSection" data-aos="fade-left">
+      <Image  src="/images/profile/profile.png"  alt="Personal Image" width={350} height={350} />
     </div>
   </section>
 

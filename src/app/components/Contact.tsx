@@ -7,21 +7,33 @@ import Heading from './Heading'
     <section className='contactSection wrapper' id='contact'>
         <Heading title='Get in Touch' />
         <div>
-            <form className='form '>
+            <form className='form'>
+              <div>
+
                 <label htmlFor="name" ></label>
-                <input type="text" name='name' id='name' placeholder='Enter you name....' data-aos="zoom-out"/>
+                <input type="text" name='name' id='name' placeholder='Enter your name....' data-aos="zoom-out"/>
                
-                <label htmlFor="name"></label>
-                <input type="text" name='email' id='email' placeholder='Enter you email....' data-aos="zoom-out"/>
+                <label htmlFor="phone"></label>
+                <input type="text" name='phone' id='phone' placeholder='Enter phone number....' data-aos="zoom-out"/>
+                
+                 
+                <label htmlFor="eamil"></label>
+                <input type="text" name='email' id='email' placeholder='Enter your email....' data-aos="zoom-out"/> 
+              </div>
+              <div>
 
-                <label htmlFor="name"></label>
-                <textarea name="message" id="message" rows={6} placeholder='Enter your meesage...' data-aos="zoom-out">
-
+                <label htmlFor="subject"></label>
+                <input type="text" name='subject' id='subject' placeholder='Enter subject...' data-aos="zoom-out"/>
+                <label htmlFor="message"></label>
+                <textarea name="message" id="message" rows={7} placeholder='Enter your meesage...' data-aos="zoom-out">
                 </textarea>
-                 <button type='submit' className='btn' data-aos="zoom-out">Send</button>
+              </div>
+
+
            
 
             </form>
+                 <button type='submit' className='btn' data-aos="zoom-out">Send</button>
             <div>
 
            
