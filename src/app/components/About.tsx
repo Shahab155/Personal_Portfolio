@@ -19,7 +19,7 @@ I am constantly learning and improving, at the moment learning Python more deepl
 </p>
 
 <p>
-Creating successful digital products, working with talented teams and making an impact on the tech community is what I aim to achieve. ". When not coding, I am likely spending time online learning about new technologies and sharing my knowledge with others or brainstorming ideas for my next project. Why is that?
+Creating successful digital products, working with talented teams and making an impact on the tech community is what I aim to achieve. &ldquo;. When not coding, I am likely spending time online learning about new technologies and sharing my knowledge with others or brainstorming ideas for my next project. Why is that?
 </p>
           </div>
 
