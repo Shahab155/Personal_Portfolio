@@ -230,8 +230,6 @@
   }
 
   .skill {
-    align-items: center;
-    text-align: center;
     width: 85%;
     height: auto;
     gap: 10px
