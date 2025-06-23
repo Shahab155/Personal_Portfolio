@@ -4,9 +4,6 @@ const Contact = () => {
   return (
     <>
       <section className="contactSection wrapper">
-        <h1 className="heading" id="contact">
-          Get in touch
-        </h1>
         <Heading title="Get in Touch" />
         <div>
           <form className="form">
