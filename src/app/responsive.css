@@ -3,16 +3,14 @@
 /* When maximum width is 1024px  */
 @media screen and (max-width: 1128px) {
   .wrapper {
-    /* max-width: 1020px;
-         */
-    width: 95%;
+    width: 90%;
     margin: 10rem auto;
   }
 
   .heroSection {
-    width: 95%;
+    width: 90%;
     gap: 50px;
-    height: 80vh;
+    height: 70vh;
     justify-content: center;
   }
 
@@ -35,7 +33,7 @@
 /* About Section  */
   .aboutSection div {
     height: auto;
-    width: 95%;
+    width: 90%;
   }
 
   /* Skill Section  */
@@ -50,7 +48,7 @@
 
 @media screen and (min-width: 801px) and (max-width: 950px) {
   .wrapper {
-    max-width: 850px;
+    
     margin: 10rem auto;
   }
 
@@ -64,14 +62,14 @@
   }
 
   .projectsSection .card {
-   width: 220px;
+   width: 200px;
   }
 
    .skillSection .container  {
     grid-template-columns: repeat(3,1fr);
   }
   .skill {
-   width: 235px;
+   width: 210px;
    height: auto;
   }
 }
@@ -80,7 +78,7 @@
 
 @media screen and (min-width: 769px) and (max-width: 800px) {
   .wrapper {
-    max-width: 730px;
+    width: 90%;
     margin: 10rem auto;
   }
 
@@ -88,7 +86,14 @@
     width: 60%;
   }
 
+  .projectsSection .contactSection {
+    width: 90%;
+  }
   
+  .projectsSection .card  {
+    width:200px
+  }
+
   .skillSection .container  {
     grid-template-columns: repeat(3,1fr);
   }
@@ -102,6 +107,7 @@
 
 @media screen and (max-width: 768px) {
   .wrapper {
+    width: 90%;
     margin: 10rem auto;
   }
 
@@ -134,25 +140,34 @@
 
   .heroSection {
     flex-direction: row;
-    align-items: center;
+   justify-content: space-between;
     gap:20px;
     height: auto;
     padding: 23px 0;
-    height: 100vh;
+    height: 60vh;
   }
 
   .leftSection .btn {
   margin: 5px 5px;
 
   }
-  .heroSection > div {
-    width: 60%;
+  .leftSection {
+    width: 55%;
+  }
+
+  .rightSection {
+    width: 35%;
+  }
+
+  .rightSection img {
+    width: 300px;
+    height: 300px;
   }
 
   /* About section  */
 
   .aboutSection div {
-    width: 95%;
+    width: 90%;
   }
 
   .aboutSection div p {
@@ -189,12 +204,18 @@
 /* When screen is in range between 320 to 640px */
 
 @media screen and (min-width: 320px) and (max-width: 640px) {
+
+  .wrapper {
+    margin: 7rem auto;
+    
+  }
   .heroSection {
-    gap: 120px;
+    gap: 100px;
     flex-direction: column;
     align-items: center;
     height: auto;
     padding: 23px 0;
+    
   }
 
   .leftSection {
@@ -202,7 +223,12 @@
   }
 
   .heroSection > div {
-    width: 95%;
+    width: 90%;
+  }
+
+  .heroSection .rightSection img {
+    width: 200px ;
+    height: 200px;
   }
 
   /* Project Section  */
@@ -214,7 +240,7 @@
   }
 
   .projectsSection .card {
-
+    width: 90%;
     height: auto;
   
   }
@@ -230,7 +256,7 @@
   }
 
   .skill {
-    width: 85%;
+    width: 90%;
     height: auto;
     gap: 10px
   }
@@ -240,6 +266,14 @@
   }
 
   .aboutSection div {
-    width: 83%;
+    width: 90%;
+  }
+
+  .form {
+    grid-template-columns: repeat(1,1fr);
+  }
+
+   .contactSection .btn{
+   margin-top: 20px;
   }
 }

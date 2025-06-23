@@ -12,7 +12,7 @@
 .heading {
   text-align: center;
   font-size: 3rem;
-  background: linear-gradient(to right, #a78bfa, #ec4899); /* from-purple-400 to-pink-500 */
+  background: linear-gradient(to right, #00F260, #0575E6); /* from-purple-400 to-pink-500 */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -80,7 +80,8 @@ nav .logo {
   font-weight: bold;
   cursor: pointer;
   transition: all 0.05s ease-in;
-  background: linear-gradient(to right, #a78bfa, #ec4899); /* from-purple-400 to-pink-500 */
+  background: linear-gradient(to right, #00F260, #0575E6);
+; /* from-purple-400 to-pink-500 */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -90,8 +91,10 @@ nav .logo {
 nav .logo:hover {
   border-bottom: 2px solid white;
 }
+/* **************************************************************************************** */
+/* ********************************* Hero section ****************************************** */
+/* ***************************************************************************************** */
 
-/* hero section styling  */
 .heroSection {
   height: 100vh;
   margin-top: 70px;
@@ -120,7 +123,8 @@ nav .logo:hover {
 
 .typing-effect, .typing{
   font-size: 2rem;
-  background: linear-gradient(to right, #a78bfa, #ec4899); /* from-purple-400 to-pink-500 */
+  background: linear-gradient(to right, #00F260, #0575E6);
+; /* from-purple-400 to-pink-500 */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -135,7 +139,7 @@ nav .logo:hover {
 .leftSection .btn {
   font-size: 1rem;
   height: 50px;
-   background: linear-gradient(to right, #A970FF, #FF6AC2);
+   background: linear-gradient(to right, #00F260, #0575E6);
   font-weight: 600; /* font-semibold */
   padding: 0.5rem 1.5rem; /* py-2 px-6 */
   border-radius: 0.75rem; /* rounded-xl */
@@ -158,6 +162,7 @@ nav .logo:hover {
   width: 35%;
   height: 450px;
   display: flex;
+  /* align-items: center; */
   justify-content: center;
   padding: 0 10px;
  
@@ -166,10 +171,13 @@ nav .logo:hover {
 
 .rightSection img {
  border-radius: 50%;
- border: 10px solid rgb(196, 11, 144);
+ border: 10px solid rgb(45, 190, 16);
+
 }
 
-/* About section */
+/* **************************************************************************************** */
+/* ********************************* About Section ****************************************** */
+/* ***************************************************************************************** */
 .aboutSection {
   margin: 10rem auto;
 }
@@ -194,7 +202,9 @@ nav .logo:hover {
   line-height: 28px;
 }
 
-/* projectsSection */
+/* **************************************************************************************** */
+/* ********************************* project section ****************************************** */
+/* ***************************************************************************************** */
 .projectsSection {
   margin: 10rem auto;
 }
@@ -222,7 +232,8 @@ nav .logo:hover {
 }
 
 .projectsSection .card:hover {
-box-shadow: 0px 0px 20px rgb(168, 1, 118);
+box-shadow: 0px 0px 20px rgb(49, 239, 49);
+
 
 
 }
@@ -279,7 +290,11 @@ transition: all ease 1s;
 .card button:hover {
   background-color:#19181B;
 }
-/* # Skill section  */
+
+/* **************************************************************************************** */
+/* ********************************* Skill section ****************************************** */
+/* ***************************************************************************************** */
+
 .skillSection {
   margin: 10rem auto;
 }
@@ -308,7 +323,7 @@ transition: all ease 1s;
 }
 
 .skill:hover {
-box-shadow: 0px 0px 20px rgb(168, 1, 118);
+box-shadow: 0px 0px 20px rgb(49, 239, 49);
 }
 
 .skill div {
@@ -338,7 +353,9 @@ transition: all ease 1s;
 background-color:#19181B;
 }
 
-/* Contact Section  */
+/* **************************************************************************************** */
+/* ********************************* Contact Section ****************************************** */
+/* ***************************************************************************************** */
 
 .contactSection {
   margin: 10rem auto;
@@ -356,22 +373,20 @@ input {
   width: 90%;
   border-radius: 15px;
   padding: 15px;
-  border: 1px solid white
-;
+  border: 1px solid white;
   background: transparent;
    margin-bottom: 30px ;
 }
 
 textarea:hover ,input:hover {
-box-shadow: 0px 0px 20px rgb(168, 1, 118);
+box-shadow: 0px 0px 20px rgb(49, 239, 49);
 cursor:default;
 
 }
 
 textarea {
   background: transparent;
-  border: 1px solid white
-;
+  border: 1px solid white;
   padding: 10px;
   border-radius: 15px;
   width: 90%;
@@ -382,27 +397,25 @@ textarea {
 
 
 .contactSection .btn {
-  /* margin: 0 auto; */
   background: transparent;
   border: 1px solid white;
   padding: 10px;
   border-radius: 15px;
   width: 97%;
   font-weight: bold;
-  transition: 0.2s ease-in-out;
   color: white;
   cursor: pointer;
-  transition: all 3s ease-in-out;
 }
 
 .contactSection .btn:hover {
-box-shadow: 0px 0px 20px rgb(168, 1, 118);
-;
-;
+box-shadow: 0px 0px 20px rgb(49, 239, 49);
 
 }
 
-/* footer section  */
+/* **************************************************************************************** */
+/* ********************************* Footer Section ****************************************** */
+/* ***************************************************************************************** */
+
 footer {
   background-color: rgb(15, 15, 15);
 }

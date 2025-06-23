@@ -11,21 +11,21 @@ import Heading from './Heading'
               <div>
 
                 <label htmlFor="name" ></label>
-                <input type="text" name='name' id='name' placeholder='Enter your name....' data-aos="zoom-out"/>
+                <input type="text" name='name' id='name' placeholder='Enter your name....' data-aos="flip-left"/>
                
                 <label htmlFor="phone"></label>
-                <input type="text" name='phone' id='phone' placeholder='Enter phone number....' data-aos="zoom-out"/>
+                <input type="text" name='phone' id='phone' placeholder='Enter phone number....' data-aos="flip-left"/>
                 
                  
                 <label htmlFor="eamil"></label>
-                <input type="text" name='email' id='email' placeholder='Enter your email....' data-aos="zoom-out"/> 
+                <input type="text" name='email' id='email' placeholder='Enter your email....' data-aos="flip-left"/> 
               </div>
               <div>
 
                 <label htmlFor="subject"></label>
-                <input type="text" name='subject' id='subject' placeholder='Enter subject...' data-aos="zoom-out"/>
+                <input type="text" name='subject' id='subject' placeholder='Enter subject...' data-aos="flip-left"/>
                 <label htmlFor="message"></label>
-                <textarea name="message" id="message" rows={7} placeholder='Enter your meesage...' data-aos="zoom-out">
+                <textarea name="message" id="message" rows={7} placeholder='Enter your meesage...' data-aos="flip-left">
                 </textarea>
               </div>
 
@@ -33,7 +33,7 @@ import Heading from './Heading'
            
 
             </form>
-                 <button type='submit' className='btn' data-aos="zoom-out">Send</button>
+                 <button type='submit' className='btn' data-aos="flip-left">Send</button>
             <div>
 
            
