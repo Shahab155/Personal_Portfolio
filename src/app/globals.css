@@ -223,8 +223,6 @@ nav .logo:hover {
   border-radius: 5px;
   padding: 15px;
   border: 1px solid white;
-  background-color: #060C0D;
-
 }
 
 .projectsSection .card:hover {
@@ -310,7 +308,7 @@ nav .logo:hover {
   gap: 15px;
   transition: all 0.5s ease;
   border-radius: 10px;
-  background-color: #060C0D;
+
 }
 
 .skill:hover {
