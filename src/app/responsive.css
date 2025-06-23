@@ -58,14 +58,14 @@
   }
 
   .projectsSection .card {
-    width: 200px;
+    width: 220px;
   }
 
   .skillSection .container {
     grid-template-columns: repeat(3, 1fr);
   }
   .skill {
-    width: 210px;
+    width: 220px;
     height: auto;
   }
 }
@@ -118,12 +118,12 @@
   }
 
   .navList {
-    height: 100vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 30px;
     font-size: 24px;
   }
 
@@ -137,17 +137,18 @@
   .heroSection {
     flex-direction: row;
     justify-content: space-between;
-    gap: 20px;
+    gap: 10px;
     height: auto;
     padding: 23px 0;
     height: 60vh;
   }
 
   .leftSection .btn {
-    margin: 5px 5px;
+   margin: 5px 9px;
+   padding: 6px 10px;
   }
   .leftSection {
-    width: 55%;
+    width: 60%;
   }
 
   .rightSection {
