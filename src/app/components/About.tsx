@@ -4,7 +4,7 @@ export const About = () => {
   return (
     <section className="aboutSection wrapper" id="about">
  
-      <Heading title="About" />
+      <Heading title="About Me" />
       <div>
         <h2>About Me</h2>
         <p>

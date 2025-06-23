@@ -208,7 +208,7 @@ nav .logo:hover {
 
 .projectsSection .container {
   width: 100%;
-  margin-top: 40px;
+  margin-top: 50px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
@@ -217,17 +217,18 @@ nav .logo:hover {
 
 .projectsSection .card {
   width: 315px;
-  /* height: 450px; */
   display: flex;
   flex-direction: column;
   gap: 5px;
   border-radius: 5px;
   padding: 15px;
   border: 1px solid white;
+  background-color: #060C0D;
+
 }
 
 .projectsSection .card:hover {
-  box-shadow: 0px 0px 20px rgb(49, 239, 49);
+  box-shadow: 0px 0px 20px #80D8C3;
 }
 
 .projectsSection .card img {
@@ -289,7 +290,7 @@ nav .logo:hover {
 }
 
 .skillSection .container {
-  width: 100%;
+  /* width: 100%; */
   margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -301,17 +302,19 @@ nav .logo:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 315px;
+  width: 340px;
+  height: 200px;
   padding: 15px 10px;
   border: 1px solid white;
   border-radius: 10px;
   gap: 15px;
   transition: all 0.5s ease;
   border-radius: 10px;
+  background-color: #060C0D;
 }
 
 .skill:hover {
-  box-shadow: 0px 0px 20px rgb(49, 239, 49);
+  box-shadow: 0px 0px 20px #50dfbe;
 }
 
 .skill div {
@@ -367,7 +370,7 @@ input {
 
 textarea:hover,
 input:hover {
-  box-shadow: 0px 0px 20px rgb(49, 239, 49);
+  box-shadow: 0px 0px 20px #80D8C3;
   cursor: default;
 }
 
@@ -392,7 +395,7 @@ textarea {
 }
 
 .contactSection .btn:hover {
-  box-shadow: 0px 0px 20px rgb(49, 239, 49);
+  box-shadow: 0px 0px 20px #80D8C3;
 }
 
 /* **************************************************************************************** */
@@ -443,7 +446,7 @@ footer {
 }
 
 .socialIcons .icon:hover {
-  box-shadow: 0px 0px 30px rgb(49, 239, 49);
+  box-shadow: 0px 0px 30px #80D8C3;
 
 }
 

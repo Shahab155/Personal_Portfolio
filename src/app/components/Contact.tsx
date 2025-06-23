@@ -15,6 +15,8 @@ const Contact = () => {
                 id="name"
                 placeholder="Enter your name...."
                 data-aos="flip-left"
+                data-aos-duration="3000"
+
               />
 
               <label htmlFor="phone"></label>
@@ -24,6 +26,8 @@ const Contact = () => {
                 id="phone"
                 placeholder="Enter phone number...."
                 data-aos="flip-left"
+                data-aos-duration="3000"
+
               />
 
               <label htmlFor="eamil"></label>
@@ -33,6 +37,8 @@ const Contact = () => {
                 id="email"
                 placeholder="Enter your email...."
                 data-aos="flip-left"
+                data-aos-duration="3000"
+
               />
             </div>
             <div>
@@ -43,6 +49,8 @@ const Contact = () => {
                 id="subject"
                 placeholder="Enter subject..."
                 data-aos="flip-left"
+                data-aos-duration="3000"
+
               />
               <label htmlFor="message"></label>
               <textarea
@@ -51,10 +59,18 @@ const Contact = () => {
                 rows={7}
                 placeholder="Enter your meesage..."
                 data-aos="flip-left"
+                data-aos-duration="3000"
+
               ></textarea>
             </div>
           </form>
-          <button type="submit" className="btn" data-aos="flip-left">
+          <button
+            type="submit"
+            className="btn"
+            data-aos="flip-left"
+            data-aos-duration="3000"
+
+          >
             Send
           </button>
           <div></div>

@@ -94,7 +94,7 @@ const Projects = () => {
       <div className="container">
         {cardData.map((item, index) => {
           return (
-            <div key={index} data-aos="zoom-out">
+            <div key={index} data-aos="fade-up">
               <Card
                 description={item.description}
                 image={item.image}

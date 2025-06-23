@@ -1,4 +1,4 @@
-import { FaHtml5, FaCss3, FaJs, FaReact } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaJs, FaReact,FaPython } from "react-icons/fa";
 import { SiTypescript, SiNextdotjs, SiTailwindcss } from "react-icons/si";
 import Heading from "./Heading";
 import { useRouter } from "next/navigation";
@@ -53,6 +53,14 @@ const mySkill = [
     icon: <SiNextdotjs />,
     style: { color: "#61DAFB", fontSize: "30px" },
     link: "https://tailwindcss.com/",
+  },
+  {
+    name: "Python",
+    description:
+      "A high-level, versatile, and easy-to-read programming language ",
+    icon: <FaPython />,
+    style: { color: "#3776AB", fontSize: "30px" },
+    link: "https://www.python.org/",
   },
 ];
 
