@@ -10,7 +10,7 @@
   .heroSection {
     width: 90%;
     gap: 50px;
-    height: 70vh;
+    height: 100vh;
     justify-content: center;
   }
 
@@ -22,7 +22,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     /* padding: 0 8px; */
   }
-   /* project Section */
+  /* project Section */
   .projectsSection .card {
     width: 85%;
   }
@@ -30,7 +30,7 @@
   .projectsSection .card img {
     width: 100%;
   }
-/* About Section  */
+  /* About Section  */
   .aboutSection div {
     height: auto;
     width: 90%;
@@ -40,7 +40,6 @@
 
   .skill {
     width: 280px;
-
   }
 }
 
@@ -48,13 +47,11 @@
 
 @media screen and (min-width: 801px) and (max-width: 950px) {
   .wrapper {
-    
     margin: 10rem auto;
   }
 
   .heroSection {
     justify-content: center;
-    
   }
 
   .heroSection > div {
@@ -62,15 +59,15 @@
   }
 
   .projectsSection .card {
-   width: 200px;
+    width: 200px;
   }
 
-   .skillSection .container  {
-    grid-template-columns: repeat(3,1fr);
+  .skillSection .container {
+    grid-template-columns: repeat(3, 1fr);
   }
   .skill {
-   width: 210px;
-   height: auto;
+    width: 210px;
+    height: auto;
   }
 }
 
@@ -89,17 +86,17 @@
   .projectsSection .contactSection {
     width: 90%;
   }
-  
-  .projectsSection .card  {
-    width:200px
+
+  .projectsSection .card {
+    width: 200px;
   }
 
-  .skillSection .container  {
-    grid-template-columns: repeat(3,1fr);
+  .skillSection .container {
+    grid-template-columns: repeat(3, 1fr);
   }
   .skill {
-   width: 200px;
-   height: auto;
+    width: 200px;
+    height: auto;
   }
 }
 
@@ -140,16 +137,15 @@
 
   .heroSection {
     flex-direction: row;
-   justify-content: space-between;
-    gap:20px;
+    justify-content: space-between;
+    gap: 20px;
     height: auto;
     padding: 23px 0;
     height: 60vh;
   }
 
   .leftSection .btn {
-  margin: 5px 5px;
-
+    margin: 5px 5px;
   }
   .leftSection {
     width: 55%;
@@ -190,24 +186,20 @@
 
   /* Skills Section  */
 
-  .skillSection .container  {
-    grid-template-columns: repeat(2,1fr);
-    gap:15px
-   
+  .skillSection .container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
   }
   .skill {
     width: 90%;
-    
   }
 }
 
 /* When screen is in range between 320 to 640px */
 
 @media screen and (min-width: 320px) and (max-width: 640px) {
-
   .wrapper {
     margin: 7rem auto;
-    
   }
   .heroSection {
     gap: 100px;
@@ -215,11 +207,14 @@
     align-items: center;
     height: auto;
     padding: 23px 0;
-    
   }
 
   .leftSection {
     text-align: center;
+  }
+
+  .leftSection button {
+    margin: 0 0;
   }
 
   .heroSection > div {
@@ -227,8 +222,8 @@
   }
 
   .heroSection .rightSection img {
-    width: 200px ;
-    height: 200px;
+    /* width: 200px ;
+    height: 200px; */
   }
 
   /* Project Section  */
@@ -236,15 +231,13 @@
   .projectsSection .container {
     grid-template-columns: 1fr;
     width: 90%;
- 
   }
 
   .projectsSection .card {
     width: 90%;
     height: auto;
-  
   }
-  .projectsSection .card .description  {
+  .projectsSection .card .description {
     height: auto;
   }
 
@@ -252,17 +245,17 @@
 
   .skillSection .container {
     grid-template-columns: repeat(1, 1fr);
-    gap:20px
+    gap: 20px;
   }
 
   .skill {
     width: 90%;
     height: auto;
-    gap: 10px
+    gap: 10px;
   }
 
   .skill button {
-    padding: 10px 40px ;
+    padding: 10px 40px;
   }
 
   .aboutSection div {
@@ -270,10 +263,10 @@
   }
 
   .form {
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 
-   .contactSection .btn{
-   margin-top: 20px;
+  .contactSection .btn {
+    margin-top: 20px;
   }
 }

@@ -3,24 +3,34 @@ import Heading from "./Heading";
 export const About = () => {
   return (
     <section className="aboutSection wrapper" id="about">
+ 
       <Heading title="About" />
       <div>
+        <h2>About Me</h2>
         <p>
-          As a passionate and self-reliant Frontend Developer with expertise in{" "}
-          <strong>
-            HTML, CSS, JavaScript , TypeScript, React.js, Next.js.
-          </strong>
-          My passion is creating visually appealing and user-friendly web
-          interfaces that are also clean and responsive. I am constantly
-          learning and improving, at the moment learning Python more deeply in a
-          world filled with AI agents and newer web technologies.? My passion
-          lies in creating eye-catching portfolios, resolving technical problems
-          through code, and exploring new tools like Tailwind CSS. Creating
-          successful digital products, working with talented teams and making an
-          impact on the tech community is what I aim to achieve. &ldquo;. When
-          not coding, I am likely spending time online learning about new
-          technologies and sharing my knowledge with others or brainstorming
-          ideas for my next project. Why is that?
+          I am a Frontend Developer who enjoys creating modern and responsive
+          websites. My expertise lies in the areas of HTML, CSS, JavaScript,
+          TypeScript coding, React, and Next.js. My aim is to produce interfaces
+          that are clean, accessible, and user-friendly. I find pleasure in
+          transforming UI designs into web-based experiences. I prefer Tailwind
+          CSS to achieve quick and refined results.? I am constantly refining my
+          frontend skills. I am primarily focused on delivering performance,
+          responsiveness, and clarity. Why? Each line of code I write is
+          dedicated to solving an actual problem.
+        </p>
+      </div>
+      <div>
+        <h2>What I do when not coding? </h2>
+        <p>
+          When not coding, I am learning and creating. I am fond of exploring
+          the world of AI and staying up-to-date with the latest tech trends.
+          Occasionally, I create project concepts or plan for future
+          undertakings. Reading about the impact of technology on our future is
+          something I really enjoy. Frequently, I will be watching developer
+          videos or browsing design inspiration reels. I find pleasure in
+          calming myself through enjoyable walks. Spending time with loved ones
+          keeps me grounded and motivated. I frequently re-evaluate my progress
+          and set new learning objectives.
         </p>
       </div>
     </section>
