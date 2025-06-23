@@ -37,7 +37,7 @@ body {
 }
 
 nav {
-  background-color: rgb(15, 15, 15);
+  background-color: #060c0d;
   width: 100%;
   height: 70px;
   display: flex;
@@ -174,7 +174,7 @@ nav .logo:hover {
 
 .rightSection img {
   border-radius: 50%;
-  border: 10px solid #01E66D
+  border: 10px solid #01e66d;
 }
 
 /* **************************************************************************************** */
@@ -226,7 +226,7 @@ nav .logo:hover {
 }
 
 .projectsSection .card:hover {
-  box-shadow: 0px 0px 20px #80D8C3;
+  box-shadow: 0px 0px 20px #80d8c3;
 }
 
 .projectsSection .card img {
@@ -308,7 +308,6 @@ nav .logo:hover {
   gap: 15px;
   transition: all 0.5s ease;
   border-radius: 10px;
-
 }
 
 .skill:hover {
@@ -348,6 +347,9 @@ nav .logo:hover {
 
 .contactSection {
   margin: 10rem auto;
+  background-color: #060c0d;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .form {
@@ -361,20 +363,20 @@ input {
   width: 90%;
   border-radius: 15px;
   padding: 15px;
-  border: 1px solid white;
+  border: 2px solid white;
   background: transparent;
   margin-bottom: 30px;
 }
 
 textarea:hover,
 input:hover {
-  box-shadow: 0px 0px 20px #80D8C3;
+  box-shadow: 0px 0px 20px #80d8c3;
   cursor: default;
 }
 
 textarea {
   background: transparent;
-  border: 1px solid white;
+  border: 2px solid white;
   padding: 10px;
   border-radius: 15px;
   width: 90%;
@@ -383,7 +385,7 @@ textarea {
 
 .contactSection .btn {
   background: transparent;
-  border: 1px solid white;
+  border: 2px solid white;
   padding: 10px;
   border-radius: 15px;
   width: 97%;
@@ -393,7 +395,7 @@ textarea {
 }
 
 .contactSection .btn:hover {
-  box-shadow: 0px 0px 20px #80D8C3;
+  box-shadow: 0px 0px 20px #80d8c3;
 }
 
 /* **************************************************************************************** */
@@ -401,7 +403,7 @@ textarea {
 /* ***************************************************************************************** */
 
 footer {
-  background-color: rgb(15, 15, 15);
+  background-color: #060c0d;
 }
 
 .footerContainer {
@@ -444,8 +446,7 @@ footer {
 }
 
 .socialIcons .icon:hover {
-  box-shadow: 0px 0px 30px #80D8C3;
-
+  box-shadow: 0px 0px 30px #80d8c3;
 }
 
 footer p {
