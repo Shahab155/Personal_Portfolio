@@ -305,7 +305,7 @@ nav .logo:hover {
   padding: 15px 10px;
   border: 1px solid white;
   border-radius: 10px;
-  gap: 15px;
+  gap: 25px;
   transition: all 0.5s ease;
   border-radius: 10px;
 }
@@ -366,6 +366,7 @@ input {
   border: 2px solid white;
   background: transparent;
   margin-bottom: 30px;
+  color:white
 }
 
 textarea:hover,
@@ -381,6 +382,7 @@ textarea {
   border-radius: 15px;
   width: 90%;
   border-image: 20px;
+  color:white
 }
 
 .contactSection .btn {

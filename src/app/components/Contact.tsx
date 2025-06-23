@@ -69,7 +69,7 @@ const Contact = () => {
             className="btn"
             data-aos="flip-left"
             data-aos-duration="3000"
-
+            onClick={()=>{alert("All fields are required!")}}
           >
             Send
           </button>
