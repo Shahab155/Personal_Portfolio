@@ -28,7 +28,7 @@ const Hero = () => {
             data-aos="fade-right"
             className="btn"
             onClick={() => {
-              router.push("https://resume-project-inky.vercel.app/");
+              router.push("/images/profile/Resume.pdf");
             }}
           >
             Download Resume
