@@ -30,8 +30,8 @@ const Home = () => {
     <div>
       <Hero />
       <About />
-      <Projects />
       <Skills />
+      <Projects />
       <Contact />  
     </div>
   );
