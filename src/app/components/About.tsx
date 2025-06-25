@@ -5,6 +5,7 @@ export const About = () => {
     <section className="aboutSection wrapper" id="about">
  
       <Heading title="About Me" />
+      
       <div>
         <h2>About Me</h2>
         <p>
