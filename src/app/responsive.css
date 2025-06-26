@@ -153,6 +153,7 @@
 
   .rightSection {
     width: 35%;
+    height: auto;
   }
 
   .rightSection img {
@@ -174,13 +175,17 @@
 
   .projectsSection .container {
     grid-template-columns: 1fr 1fr;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-top: 50px;
   }
 
   .projectsSection .card {
     width: 90%;
-    margin-top: 20px;
     justify-content: space-between;
+  }
+
+  .projectsSection .card .description {
+        height: 200px;
   }
 
   /* Skills Section  */
@@ -208,6 +213,15 @@
     padding: 23px 0;
   }
 
+  .rightSection img {
+        width: 240px;
+        height: 240px;
+  }
+
+  .rightSection {
+    height: auto;
+  }
+
   .leftSection {
     text-align: center;
   }
@@ -225,10 +239,14 @@
   .projectsSection .container {
     grid-template-columns: 1fr;
     width: 90%;
+    margin-top: 50px;
+    /* gap:12px; */
+  
   }
+ 
 
   .projectsSection .card {
-    width: 90%;
+    width: 100%;
     height: auto;
   }
   .projectsSection .card .description {
