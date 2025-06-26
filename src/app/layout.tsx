@@ -8,7 +8,7 @@ import "./responsive.css"
 const heebo = Heebo({subsets:["latin"], weight:["400","700"]})
 
 export const metadata: Metadata = {
-  title: "Shahab's Portfolio",
+  title: "Shahab",
   description: "Frontend Developer building modern, responsive websites using HTML, CSS, JavaScript, React, and Next.js.",
 };
 
