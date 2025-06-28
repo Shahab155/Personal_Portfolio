@@ -21,7 +21,7 @@ useEffect(()=>{
 
   return (
     <h2 className="typing-effect">
-      <span ref={typedRef} />.
+     I am <span ref={typedRef} />.
     </h2>
   )
 }

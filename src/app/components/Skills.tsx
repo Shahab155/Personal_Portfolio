@@ -76,8 +76,8 @@ const Skills = () => {
             <div
               key={index}
               className="skill"
-              data-aos="flip-left"
-              data-aos-duration="3000"
+             data-aos="zoom-in"
+            data-aos-duration="2000"
             >
               <div>
                 <span style={item.style}>{item.icon}</span>

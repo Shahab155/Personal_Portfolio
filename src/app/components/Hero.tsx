@@ -8,10 +8,10 @@ const Hero = () => {
   return (
     <section className="heroSection wrapper">
       <div className="leftSection">
-        <h1 data-aos="fade-right">I am a passionate</h1>
+        <h1 data-aos="fade-right">Hi, I am Shahab</h1>
         <div className="typing-effect">
           {" "}
-          <TypingEffect />
+         <TypingEffect />
         </div>
         <p data-aos="fade-right">
           {" "}
@@ -45,7 +45,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="rightSection" data-aos="fade-left">
+      <div className="rightSection" >
         <Image
           src="/images/profile/profile.png"
           alt="Personal Image"
