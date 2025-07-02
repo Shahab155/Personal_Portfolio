@@ -24,18 +24,18 @@ const Contact = () => {
   });
 
   const onChangeHandler = (e: onChangeEeventType) => {
-    let contactData = {
+    const contactData = {
       ...contactInfo,
       [e.target.name]: e.target.value,
     };
     setContactInfo(contactData);
-    console.log(contactInfo);
+  
   };
 
   const submitHanlder = async () => {
     try {
       await contactInfoSchema.validate(contactInfo);
-      let newContactList = [...contactList, contactInfo];
+      const newContactList = [...contactList, contactInfo];
       setContactList(newContactList);
 
       setContactInfo({
@@ -48,7 +48,7 @@ const Contact = () => {
       });
       alert("Form Submitted Successfully!")
       setErrors([])
-    } catch (err: any) {
+    } catch (err:any) {
       setErrors(err.errors);
       console.log(err.name);
     }
@@ -114,8 +114,8 @@ const Contact = () => {
               ></textarea>
             </div>
           </form>
-          {errors.map((item) => {
-            return <p className="error">{item}</p>;
+          {errors.map((item,index) => {
+            return <p key={index} className="error">{item}</p>;
           })}
           <button type="submit" className="btn" onClick={submitHanlder}>
             Send
