@@ -48,9 +48,12 @@ const Contact = () => {
       });
       alert("Form Submitted Successfully!")
       setErrors([])
-    } catch (err:any) {
-      setErrors(err.errors);
-      console.log(err.name);
+    } catch (err) {
+      if(err instanceof yup.ValidationError){
+
+        setErrors(err.errors);
+      }
+      
     }
   };
 
@@ -77,13 +80,13 @@ const Contact = () => {
               <input
                 value={contactInfo.phone}
                 onChange={onChangeHandler}
-                type="text"
+                type="number"
                 name="phone"
                 id="phone"
                 placeholder="Enter phone number...."
               />
 
-              <label htmlFor="eamil"></label>
+              <label htmlFor="email"></label>
               <input
                 value={contactInfo.email}
                 onChange={onChangeHandler}
