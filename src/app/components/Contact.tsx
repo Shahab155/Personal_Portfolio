@@ -34,7 +34,7 @@ const Contact = () => {
 
   const submitHanlder = async () => {
     try {
-      let result = await contactInfoSchema.validate(contactInfo);
+      await contactInfoSchema.validate(contactInfo);
       let newContactList = [...contactList, contactInfo];
       setContactList(newContactList);
 

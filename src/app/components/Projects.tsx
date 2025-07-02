@@ -92,9 +92,9 @@ const Projects = () => {
     <section className="projectsSection wrapper" id="projects">
       <Heading title="My Projects" />
       <div className="container">
-        {cardData.map((item, index) => {
+        {cardData.map((item) => {
           return (
-            <div key={index} data-aos="fade-up">
+            <div key={item.id} data-aos="fade-up">
               <Card
                 description={item.description}
                 image={item.image}
