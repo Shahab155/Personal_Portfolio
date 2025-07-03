@@ -1,4 +1,6 @@
-import { LuFacebook, LuLinkedin, LuInstagram, LuTwitter } from "react-icons/lu";
+import { LuGithub, LuLinkedin, LuInstagram,   } from "react-icons/lu";
+import { FaSquareXTwitter } from "react-icons/fa6";
+
 
 export default function Footer() {
   return (
@@ -23,10 +25,10 @@ export default function Footer() {
           </div>
           <div className="socialIcons">
             <a
-              href="https://web.facebook.com/shahabuddin.bhutto.963"
+              href="https://github.com/Shahab155"
               target="_blank"
             >
-              <LuFacebook className="icon" />
+              <LuGithub className="icon" />
             </a>
             <a
               href="https://www.linkedin.com/in/shahab-ud-din-7547762b9/"
@@ -37,8 +39,8 @@ export default function Footer() {
             <a href="https://www.instagram.com/bhuttoshahab15/" target="_blank">
               <LuInstagram className="icon" />
             </a>
-            <a href="https://x.com/Shahabu94082969" target="_blank">
-              <LuTwitter className="icon" />
+            <a href="https://x.com/Shahab1544SK" target="_blank">
+              < FaSquareXTwitter className="icon" />
             </a>
           </div>
           <p>Copyright &#169; Shahab Portfolio.com | All right reseved</p>
